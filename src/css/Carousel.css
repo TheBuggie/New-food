@@ -1,0 +1,17 @@
+.carousStyle{
+   /* border-radius: 25px;
+  overflow: hidden;  */
+  
+  border-radius: 25px;
+  border: 2px solid #73AD21;
+  padding: 25px;
+  width: 550px;
+  height: 430px;
+  overflow: hidden;
+}
+.imgStyle{
+  border-radius: 25px;
+}
+.cardStyle{
+  height: 400px;
+}
