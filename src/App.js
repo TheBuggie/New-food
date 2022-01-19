@@ -6,15 +6,16 @@ import Carousel from './component/Carousel';
 import Card from './component/Card';
 import Footer from './component/Footer';
 import Carousel1 from './component/Carousel1';
+import Show from './component/Show';
 
 function App() {
   return (
     <div className="App">
       <Navbar/>
-      <Container/>
-      <Carousel/>
-      <Card/>
-      <Footer/>
+       <Container/>
+       <Carousel/>
+       <Card/>
+       <Footer/>
     </div>
   );
 }

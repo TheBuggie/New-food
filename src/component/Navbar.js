@@ -1,21 +1,28 @@
-import React from 'react'
+import React,{useState} from 'react'
+import LoginForm from '../Popups/LoginForm';
+import Modal from 'react-modal'
+import '../css/Navbar.css'
 
 export default function Navbar() {
+  const [modalIsOpen,setModalIsOpen] = useState(false);
     return (
-        <nav class="navbar navbar-light bg-light">
-        <div class="container-fluid">
-          <span class="navbar-text">
-            
-          </span>
-        <div class="d-flex align-items-center">
-        <button type="button" class="btn btn-warning px-3 me-2">
-          Login
-        </button>
-        <button type="button" class="btn btn-primary me-3">
-          Sign up 
-        </button>
-        </div>
-        </div>
-      </nav>
+      <nav class="navbar navbarStyle">
+      <a class="navbar-brand" href="#">
+        <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""/>
+      </a>
+      <div>
+          <button class="btn btn-info btn-sm 
+            float-right mx-2" onClick={()=>setModalIsOpen(true)}>Login</button>
+            <button class="btn btn-success btn-sm 
+            float-right">Sign Up</button>
+      </div>
+      <Modal class="modalStyle" isOpen={modalIsOpen} shouldCloseOnEsc={true} onRequestClose={()=>setModalIsOpen(false)} >
+                <LoginForm/>
+      <div>
+      <button onClick={()=>setModalIsOpen(false)}>CLose Modal
+      </button>
+      </div>
+      </Modal>
+    </nav>
     )
 }
