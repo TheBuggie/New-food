@@ -11,9 +11,9 @@ export default function Navbar() {
         <img src="/docs/4.0/assets/brand/bootstrap-solid.svg" width="30" height="30" alt=""/>
       </a>
       <div>
-          <button class="btn btn-info btn-sm 
+          <button class="btn btn-warning btn-sm 
             float-right mx-2" onClick={()=>setModalIsOpen(true)}>Login</button>
-            <button class="btn btn-success btn-sm 
+            <button class="btn btn-light btn-sm 
             float-right">Sign Up</button>
       </div>
       <Modal class="modalStyle" isOpen={modalIsOpen} shouldCloseOnEsc={true} onRequestClose={()=>setModalIsOpen(false)} >

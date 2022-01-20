@@ -1,5 +1,6 @@
 import React from "react";
 import '../css/Footer.css'
+import '../css/FooterFontAwesome.css'
 
 export default function Footer() {
   return (
@@ -65,18 +66,17 @@ export default function Footer() {
               </div>
               <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mb-md-0 mb-4">
                 <h6 class="text-uppercase fw-bold mb-4" style={{marginTop:"30px"}}>Social Links</h6>
-                <p>
-                  <i class="fas fa-home me-3"></i> New York, NY 10012, US
+                <p class="instagram">
+                <i class="fa fa-instagram" style={{fontSize:"40px"}}></i>
                 </p>
-                <p>
-                  <i class="fas fa-envelope me-3"></i>
-                  info@example.com
+                <p class="twitter">
+                <i class="fa fa-twitter" style={{fontSize:"40px"}}></i>
                 </p>
-                <p>
-                  <i class="fas fa-phone me-3"></i> + 01 234 567 88
+                <p class="phone">
+                <i class="fa fa-phone" style={{fontSize:"40px"}}></i>
                 </p>
-                <p>
-                  <i class="fas fa-print me-3"></i> + 01 234 567 89
+                <p class="mail">
+                <i class="fa fa-envelope" style={{fontSize:"40px"}}></i>
                 </p>
               </div>
             </div>
