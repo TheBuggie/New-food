@@ -6,15 +6,15 @@ import '../css/Carousel.css'
 export default function CarouselComponent() {
     return (
         <div class="carousel-wrapper carousStyle">
-            <Carousel infiniteLoop useKeyboardArrows autoPlay>
-                <div>
-                    <img class="imgStyle" src="../Premium.png" />
+            <Carousel infiniteLoop useKeyboardArrows autoPlay showThumbs={false} showIndicators={false}>
+                <div class="imageSize">
+                    <img src="../RegularPlan.jpg"/>
                 </div>
-                <div>
-                    <img src="../RegularPlan.jpg" />
+                <div class="imageSize">
+                    <img src="../RegularPlan.jpg"/>
                 </div>
-                <div>
-                    <img src="" />
+                <div class="imageSize">
+                    <img src="../RegularPlan.jpg"/>
                 </div>
             </Carousel>
         </div>

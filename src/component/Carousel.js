@@ -6,15 +6,14 @@ export default function Carousel() {
     <div class="container">
       <div class="row">
         <div class="col-sm-6">
-          <div class="card">
-            <div class="card-body cardStyle">
-              <h5 class="card-title">Special title treatment</h5>
-              <p class="card-text">
-                With supporting text below as a natural lead-in to additional
-                content.
+          <div class="card cardStyle">
+            <div class="card-body">
+              <h1 class="card-title ">Get tiifin service from your favorite Restaurants</h1>
+              <p class="card-text h5"> Hygienic, Mouth-watering and Good-quality Food 
+              – all at one place Delicious and Affordable Food from your favorite Bhojanalayas and Restaurants
               </p>
               <a href="#" class="btn btn-primary">
-                Go somewhere
+                Contact Us
               </a>
             </div>
           </div>

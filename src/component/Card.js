@@ -18,7 +18,7 @@ export default function Card() {
               alt="Sunset Over the Sea"
             />
             <div class="card-body">
-              <p class="card-text">
+              <p class="card-text h5">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -38,7 +38,7 @@ export default function Card() {
               alt="Sunset Over the Sea"
             />
             <div class="card-body">
-              <p class="card-text">
+              <p class="card-text h5">
                 Some quick example text to build on the card title and make up
                 the bulk of the card's content.
               </p>
@@ -46,7 +46,7 @@ export default function Card() {
           </div>
         </div>
         <div class="col-sm-4">
-          <div class="card cardStyle" style={{ width: "24rem" }}>
+          <div class="card cardStyle h5" style={{ width: "24rem" }}>
             <div>
               <p>
                 <h1>Heading </h1>

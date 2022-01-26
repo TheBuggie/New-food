@@ -10,7 +10,7 @@ export default function Footer() {
             <div class="row mt-3">
               <div class="col-md-3 col-lg-4 col-xl-3 mx-auto mb-4">
                 <h6 class="text-uppercase fw-bold mb-4" style={{marginTop:"30px"}}>
-                  <i class="fas fa-gem me-3"></i>Company name
+                  <i class="fas fa-gem me-3"></i>Buggie
                 </h6>
                 <p>
                   Here you can use rows and columns to organize your footer
@@ -87,10 +87,6 @@ export default function Footer() {
           class="text-center p-4"
           style={{backgroundColor: "rgba(0, 0, 0, 0.05)"}}
         >
-          © 2021 Copyright:
-          <a class="text-reset fw-bold" href="https://mdbootstrap.com/">
-            MDBootstrap.com
-          </a>
         </div>
       </footer>
   );
