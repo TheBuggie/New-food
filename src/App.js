@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+//import logo from './logo.svg';
 import './App.css';
 import Navbar from './component/Navbar';
 import Container from './component/Container';
@@ -11,8 +11,7 @@ import Show from './component/Show';
 function App() {
   return (
     <div className="App">
-      <Navbar/>
-       <Container/>
+       <Navbar/>
        <Carousel/>
        <Card/>
        <Footer/>
